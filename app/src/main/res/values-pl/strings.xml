@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF PRO - Nowe skrytki</string>
+    <string name="hello_world">Witaj Świecie!</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="action_help">Pomoc</string>
+    <string name="action_rate">Wsparcie ★★★★★ Rozwoju</string>
+    <string name="action_pro">Zakup wersję PRO</string>
+    <string name="action_change_country">Wybierz kraj</string>
+    <string name="action_restore_archived">Przywróć zarchiwizowane skrytki</string>
+    <string name="action_dark_theme">Wersja nocna</string>
+    <string name="lbl_wait">Trwa ładowanie skrytek…</string>
+    <string name="lbl_no_network">Sieć nie jest dostępna, spróbujemy później.</string>
+    <string name="lbl_now">Trwa teraz</string>
+    <string name="lbl_retrieved">Nowe dostępne skrytki zostały pobrane!</string>
+    <string name="lbl_error_retrieving">Błąd pobierania skrytek. Spróbujemy później!</string>
+    <string name="lbl_no_new_caches">Aktualnie brak nowych skrytek!</string>
+    <string name="txt_status">Następne sprawdzenie: %s!</string>
+    <string name="btn_click_refresh">Kliknij aby odświeżyć lub poczekaj!</string>
+
+    <string-array name="lstview_menu">
+        <item>Zarchiwizuj</item>
+        <item>Otwórz</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">Aktualnie nie ma nowych skrytek lub z zakładek. Miłego dnia!</string>
+    <string name="title_activity_help">Pomoc</string>
+    <string name="title_activity_help_content">Aplikacja pokazuje listę ostatnich nie znalezionych skrytek w kraju/województwie wybranym w ustawieniach.
+        Aby z niej skorzystać po prostu ja otwórz a skrytki zostaną załadowane automatycznie.\n
+        - Nowe skrytki zostaną podświetlone na zielono. Już znalezione zostaną podświetlone na czerwono i automatycznie usunięte po zamknięciu aplikacji,\n
+        - Możesz zarchiwizować skrytki, którymi nie jesteś zainteresowany poprzez długie naciśnięcie ich nazwy na liście.\n
+        - Możesz otworzyć skrytki w swoim ulubionym programie wybierając go po kliknięciu nazwy skrytki.\n
+        - Otwórz menu, aby zobaczyć inne możliwości.\n\n
+        Pamiętaj jednak, że aplikacja jest w fazie beta, wszelkie uwagi proszę przesyłać na maila(email: artsakenos+android@gmail.com),
+        i przydziel ★★★★★ jeżeli Ci się spodobała. <b>NIE PRZYDZIELAJ</b> słabej oceny tylko po to, aby prosić o nowe możliwości. Bądź miły i zapytaj wysyłając wiadomość e-mail. Dziękuję za wsparcie.</string>
+    <string name="txt_activity_help_countries"> Kraj lub województwo można wybrać w ustawieniach aplikacji.
+        Aktualnie aplikacja nie działa jako usługa, więc może zostać wyłączona przez system.
+        Wesprzyj rozwój aplikacji dając wysoką ocenę a dodam to rozwiązanie w przyszłości. Zapraszam!</string>
+    <string name="appwidget_text">PRZYKŁAD</string>
+    <string name="add_widget">Dodaj widżet</string>
+
+</resources>

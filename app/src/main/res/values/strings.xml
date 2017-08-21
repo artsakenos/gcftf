@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF - PRO Version</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Application Help</string>
+    <string name="action_rate">Support ★★★★★ Development</string>
+    <string name="action_pro">Get the PRO version</string>
+    <string name="action_change_country">Change Country</string>
+    <string name="action_restore_archived">Restore Archived Caches</string>
+    <string name="action_dark_theme">Dark Theme</string>
+    <string name="lbl_wait">Wait until cache list is loaded…</string>
+    <string name="lbl_no_network">Network is not available, let us try again later</string>
+    <string name="lbl_now">Now</string>
+    <string name="lbl_retrieved">Available new caches have been retrieved!</string>
+    <string name="lbl_error_retrieving">Error retrieving caches, let\'s try again!</string>
+    <string name="lbl_no_new_caches">No new caches right now!</string>
+    <string name="txt_status">Next Check: %s!</string>
+    <string name="btn_click_refresh">Click to refresh or wait the next check!</string>
+
+    <string-array name="lstview_menu">
+        <item>Archive</item>
+        <item>Open</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">There is no new or bookmarked cache right now, enjoy your day!</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_help_content">This application shows the last unfound caches in the country you will select from the menu.
+        To use it, just open the app, it will load them automatically.\n
+        - New caches will be highlighted in green. Found caches will be highlighted in red and removed automatically,\n
+        - You can archive new caches you are not interested in by long pressing the item in the list.\n
+        - You can open the caches with your favorite program just by clicking on them.\n
+        - Open the menu for further features.\n\n
+        Please take into account that this is just a beta phase, send me any feedback to improve the app (email: artsakenos+android@gmail.com),
+        and of course rate ★★★★★ it if you liked. <b>DO NOT give</b> low rating for asking features, be polite and ask me by email.
+        Thank you for your support.</string>
+    <string name="txt_activity_help_countries"> You can choose your country or state through the application settings.
+        At the moment the app will not run as a service, thus it could be closed by your android device.
+        Support the development give high rating and I will add this feature. Enjoy!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

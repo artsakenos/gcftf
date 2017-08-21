@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF - Nuove Cache PRO</string>
+    <string name="hello_world">Benvenuto!</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_help">Help dell\'applicazione</string>
+    <string name="action_rate">Supporta ★★★★★ lo sviluppo</string>
+    <string name="action_pro">Acquista la versione PRO</string>
+    <string name="action_change_country">Cambia Località</string>
+    <string name="action_restore_archived">Ripristina le cache archiviate</string>
+    <string name="action_dark_theme">Tema scuro</string>
+    <string name="lbl_wait">Attendi finché le cache vengono caricate…</string>
+    <string name="lbl_no_network">Non c\'è rete. Riproveremo più tardi.</string>
+    <string name="lbl_now">Ora</string>
+    <string name="lbl_retrieved">Le nuove cache disponibili sono state rilevate!</string>
+    <string name="lbl_error_retrieving">Errore nel recupero delle cache. Riproveremo!</string>
+    <string name="lbl_no_new_caches">Nessuna nuova cache in queto momento.</string>
+    <string name="txt_status">Prossimo controllo: %s!</string>
+    <string name="btn_click_refresh">Premi per aggiornare o attendi!</string>
+
+    <string-array name="lstview_menu">
+        <item>Archivia</item>
+        <item>Apri</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">Non ci sono cache nuove al momento, buona giornata!</string>
+    <string name="title_activity_help">Aiuto</string>
+    <string name="title_activity_help_content">Questa applicazione recupera le cache nuove e ancora non trovate nella provincia che hai selezionato dal menu.
+        Per usarla devi solo aprirla, le nuove cache verranno caricate automaticamente.\n
+        - Le nuove cache verranno evidenziate in verde. Le cache trovate verranno evidenziate in rosso e rimosse automaticamente.\n
+        - Puoi archiviare le nuove cache alle quali non sei interessato mediante una pressione lunga sulla cache.\n
+        - Puoi aprire le cache con il tuo programma preferito toccandole.\n
+        - Apri il menu per ulteriori funzionalità.\n\n
+        Tieni conto del fatto che quest\'applicazione è in fase beta, mandami un feedback via email (email: artsakenos+android@gmail.com) per consigliarmi come migliorare l\'applicazione, e vota ★★★★★ se ti è piaciuta. <b>NON dare</b> rating bassi solo per chiedere nuove funzionalità, scrivimi, e sarò felice di risponderti. Grazie del supporto.</string>
+    <string name="txt_activity_help_countries">Puoi scegliere il tuo stato o provincia selezionandolo mediante le impostazioni dell\'aplicazione.
+        Al momento l\'applicazione non è disegnata per funzionare come servizio, perciò potrebbe essere chiusa dai processi Android.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="191"
+        android:entries="@array/pref_lst_countries_title"
+        android:entryValues="@array/pref_lst_countries_values"
+        android:key="lst_countries"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="@string/pref_countries_summary"
+        android:title="@string/pref_countries_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="cbx_new_caches_notification"
+        android:summary="@string/pref_cbx_new_caches_notification_summary"
+        android:title="@string/pref_cbx_new_caches_notification_title" />
+
+    <ListPreference
+        android:defaultValue="all"
+        android:enabled="true"
+        android:entries="@array/pref_lst_cache_types_title"
+        android:entryValues="@array/pref_lst_cache_types_values"
+        android:key="lst_cache_types"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="@string/pref_cache_types_summary"
+        android:title="@string/pref_cache_types_title" />
+
+    <EditTextPreference
+        android:defaultValue="15"
+        android:enabled="true"
+        android:key="edt_check_frequency"
+        android:numeric="integer"
+        android:summary="@string/pref_check_frequency_summary"
+        android:title="@string/pref_check_frequency" />
+
+    <Preference
+        android:key="pref_static_field_key_01"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary="@string/pref_check_key_01_summary" />
+
+    <Preference
+        android:key="pref_static_field_key_02"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary="@string/pref_check_key_02_summary"
+        android:title="@string/pref_check_key_02_title" />
+
+</PreferenceScreen>

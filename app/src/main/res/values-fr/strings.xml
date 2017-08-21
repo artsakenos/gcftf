@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF - Nouvelles caches PRO</string>
+    <string name="hello_world">Bonjour à tous</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_help">Aide</string>
+    <string name="action_rate">Soutenir l\'application ★★★★★</string>
+    <string name="action_pro">Version PRO</string>
+    <string name="action_change_country">Choisir un autre pays/département</string>
+    <string name="action_restore_archived">Restaurer les caches archivées</string>
+    <string name="action_dark_theme">Thème noir</string>
+    <string name="lbl_wait">Patientez lors de l\'actualisation de la liste</string>
+    <string name="lbl_no_network">Pas de connexion internet, réessayez plus tard&#8230;</string>
+    <string name="lbl_now">Maintenant</string>
+    <string name="lbl_retrieved">Les nouvelles caches ont été recherché</string>
+    <string name="lbl_error_retrieving">Erreur lors de la recherche des caches&#8230;</string>
+    <string name="lbl_no_new_caches">Aucune nouvelle cache disponible</string>
+    <string name="txt_status">Prochaine actualisation: %s!</string>
+    <string name="btn_click_refresh">Cliquez pour rafraîchir ou attendez la prochaine actualisation</string>
+
+    <string-array name="lstview_menu">
+        <item>Archiver</item>
+        <item>Ouvrir</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">Il n\'y a pas de  nouvelles caches disponible, bonne journée !</string>
+    <string name="title_activity_help">Aide</string>
+    <string name="title_activity_help_content">Cette application vous permet de voir les nouvelles caches non trouvées dans le département/pays que vous avez séléctionné depuis le menu.
+        Pour l\'utiliser, ouvrez l\'application et l\'actualisation se fera automatiquement.\n
+        - Les nouvelles caches seront surlignées en vert. Les caches déjà trouvées seront surlignées en rouge et supprimées automatiquement.\n
+        - Vous pouvez archiver les caches qui ne vous intéressent pas en effectuant une longue pression sur celles-ci.\n
+        - Vous pouvez visualiser les caches avec votre programme favori en cliquant dessus.\n
+        - Ouvrez le menu pour accéder à plus de fonctionnalités. \n\n
+        Veuillez noter que ce n\'est qu\'une version beta, envoyez moi vos avis afin d\'améliorer l\'application. (email: artsakenos+android@gmail.com),
+        et bien sûr notez la ★★★★★ si vous appréciez. <b>NE DONNEZ PAS</b> de mauvaises notes à cause d\'une fonctionnalité absente, soyez poli et écrivez moi un mail. Merci de votre soutien.</string>
+    <string name="txt_activity_help_countries">Vous pouvez choisir le pays et le département dans les paramètres.
+        Pour le moment l\'application ne fonctionne pas comme un service, il se peut donc qu\'elle soit fermé par votre appareil Androïd.
+        Soutenez le développement, donnez de bonnes notes et j\'ajouterai des fonctionnalités supplémentaires. Profitez!</string>
+    <string name="appwidget_text">EXEMPLE</string>
+    <string name="add_widget">Ajouter un widget</string>
+
+</resources>

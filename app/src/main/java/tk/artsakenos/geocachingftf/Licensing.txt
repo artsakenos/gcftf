@@ -1,0 +1,43 @@
+
+Versione 0.4 beta
+- China Added
+- Found caches are highlighted in red.
+
+
+
+Country Codes
+=============
+    112 = Afghanistan\n
+    1244 = Albania\n
+    118 = Antarctica\n
+    119 = Argentina\n
+    13 = Australia\n
+    14 = Belgium\n
+    137 = Bulgaria\n
+    15 = Canada\n
+    147 = China\n
+    156 = Czech Republic\n
+    157 = Denmark\n
+    172 = Finland\n
+    173 = France\n
+    179 = Germany\n
+    191 = Hong Kong\n
+    194 = India\n
+    199 = Italy\n
+    1104 = Japan\n
+    18 = Luxembourg\n
+    1258 = Macau\n
+    1228 = Mexico\n
+    1130 = Monaco\n
+    19 = New Zealand\n
+    1154 = Philippines\n
+    1163 = Russia\n
+    1179 = Singapore\n
+    1165 = South Africa\n
+    110 = Sweden\n
+    1192 = Switzerland\n
+    1194 = Taiwan\n
+    111 = United Kingdom\n
+    1213 = Vatican City State\n
+    2203 = Sardegna\n
+    2196 = Lazio\n

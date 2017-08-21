@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF - New Cache PRO</string>
+    <string name="hello_world">Hola Geocatxers!!!</string>
+    <string name="action_settings">Configuració</string>
+    <string name="action_help">Ajuda de l\'aplicació</string>
+    <string name="action_rate">Suport ★★★★★ Desenvolupament</string>
+    <string name="action_pro">Obtenir la versió PRO</string>
+    <string name="action_change_country">Seleccionar País</string>
+    <string name="action_restore_archived">Restaurar catxés arxivats</string>
+    <string name="action_dark_theme">Dark Theme</string>
+    <string name="lbl_wait">Espereu fins que es carregui la llista de catxés ...</string>
+    <string name="lbl_no_network">La xarxa no està disponible, proveu més tard</string>
+    <string name="lbl_now">Ara</string>
+    <string name="lbl_retrieved">Els nous catxés estan disponibles!</string>
+    <string name="lbl_error_retrieving">Error en trobar els catxés, torneu a intentar-ho!</string>
+    <string name="lbl_no_new_caches">Ara mateix, no hi ha catxés nous!</string>
+    <string name="txt_status">Següent Verificació: %s!</string>
+    <string name="btn_click_refresh">Feu clic per actualitzar o espereu la propera verificació!</string>
+
+    <string-array name="lstview_menu">
+        <item>Arxiva</item>
+        <item>Obre</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">No hi ha cap nou catxé ni marcador en aquest moment!</string>
+    <string name="title_activity_help">Ajuda</string>
+    <string name="title_activity_help_content">Aquesta aplicació mostra els últims catxés no trobats al país que heu seleccionat al menú.
+        Per usar-la, només cal obrir l\'aplicació i es carregarà de manera automàtica.\n
+        - Els nous catxés es marquen en verd. Els catxés trobats es marcaran en vermell i s\'eliminen de forma automàtica,\n
+        - Podeu arxivar els nous catxés, si no n\'esteu interessats, fent una pressió perllongada sobre ells a la llista.\n
+        - Podeu obrir els catxés amb el vostre programa preferit només fent clic sobre ells.\n
+        - Obriu el menú per més característiques.\n\n
+        Tingueu en compte que estem només en una fase beta, per millorar l\'aplicació (email: artsakenos+android@gmail.com),
+        i puntueu ★★★★★ si us ha agradat. <b>NO li doneu</b> una baixa qualificació.
+        Abans poseu-vos en contacte per correu electrònic. Gràcies pel vostre suport.</string>
+    <string name="txt_activity_help_countries"> Podeu triar el vostre País o Estat a través de la configuració de l\'aplicació.
+        De moment l\'aplicació no s\'executarà com un servei, de manera que podria ser tancada pel dispositiu Android.
+        Doneu suport al desenvolupament donant una alta qualificació i anirem millorant les característiques. Gaudiu-ne!</string>
+    <string name="appwidget_text">Exemple</string>
+    <string name="add_widget">Afegint widget</string>
+
+</resources>

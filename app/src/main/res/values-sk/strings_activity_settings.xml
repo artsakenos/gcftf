@@ -1,0 +1,2507 @@
+<resources>
+	<string name="title_activity_settings">Nastavenia</string>
+
+	<!-- Strings related to Settings -->
+	<string name="pref_countries_title">Vyber krajinu / State</string>
+	<string name="pref_countries_summary">Aktuálna - %s</string>
+
+    <string name="pref_cbx_new_caches_notification_title">Notifikácia nových kešiek</string>
+    <string name="pref_cbx_new_caches_notification_summary">Upozorní ťa v notifikačnej lište a aj zvukom</string>
+
+	<string name="pref_cache_types_title">Filter kešiek</string>
+	<string name="pref_cache_types_summary">Aktuálny filter kešiek: %s</string>
+
+	<string name="pref_check_frequency">Interval kontroly (v minútach)</string>
+	<string name="pref_check_frequency_summary">Minimálny interval kontroly môže byť 15 minút.</string>
+
+	<string name="pref_check_key_01_summary">Poznámka: Niektoré z týchto nastavení sa prejavia až po manuálnej alebo automatickej obnove.\n\nNemáš záujem pomôcť s prekladom aplikácie do tvojej reči? Napíš mi, pridám ťa do credits!</string>
+
+	<string name="pref_check_key_02_title">-- Pro Verzia --</string>
+	<string name="pref_check_key_02_summary">PRO verzia ti umožní:\n
+        - Filtrovať typy kešiek\n
+        - Nastaviť interval obnovy (s menším minimom)\n
+		- Žiadne reklamy\n
+        - Nové funkcionality získaš medzi prvými.\n</string>
+
+
+	<!-- ##################################### -->
+    <!-- LST Cache Types -->
+    <!-- ##################################### -->
+
+    <string-array name="pref_lst_cache_types_title">
+        <item> All Caches </item>
+        <item> Traditional </item>
+        <item> Multicache </item>
+    </string-array>
+
+
+    <string-array name="pref_lst_cache_types_values">
+        <item>all</item>
+        <item>traditional</item>
+        <item>multicache</item>
+    </string-array>
+
+    <!-- ##################################### -->
+    <!-- LST Countries -->
+    <!-- ##################################### -->
+
+    <string-array name="pref_lst_countries_title">
+
+		<!-- Afghanistan-->
+		<item>Afghanistan</item>
+
+		<!-- Aland Islands-->
+		<item>Aland Islands</item>
+
+		<!-- Albania-->
+		<item>Albania</item>
+
+		<!-- Algeria-->
+		<item>Algeria</item>
+
+		<!-- American Samoa-->
+		<item>American Samoa</item>
+
+		<!-- Andorra-->
+		<item>Andorra</item>
+
+		<!-- Angola-->
+		<item>Angola</item>
+
+		<!-- Anguilla-->
+		<item>Anguilla</item>
+
+		<!-- Antarctica-->
+		<item>Antarctica</item>
+
+		<!-- Antigua and Barbuda-->
+		<item>Antigua and Barbuda</item>
+
+		<!-- Argentina-->
+		<item>Argentina</item>
+
+		<!-- Armenia-->
+		<item>Armenia</item>
+
+		<!-- Aruba-->
+		<item>Aruba</item>
+
+		<!-- Australia-->
+		<item>Australia: Australian Capital Territory</item>
+		<item>Australia: New South Wales</item>
+		<item>Australia: Northern Territory</item>
+		<item>Australia: Queensland</item>
+		<item>Australia: South Australia</item>
+		<item>Australia: Tasmania</item>
+		<item>Australia: Victoria</item>
+		<item>Australia: Western Australia</item>
+
+		<!-- Austria-->
+		<item>Austria: Burgenland</item>
+		<item>Austria: Kärnten</item>
+		<item>Austria: Niederösterreich</item>
+		<item>Austria: Oberösterreich</item>
+		<item>Austria: Salzburg</item>
+		<item>Austria: Steiermark</item>
+		<item>Austria: Tirol</item>
+		<item>Austria: Vorarlberg</item>
+		<item>Austria: Wien</item>
+
+		<!-- Azerbaijan-->
+		<item>Azerbaijan</item>
+
+		<!-- Bahamas-->
+		<item>Bahamas</item>
+
+		<!-- Bahrain-->
+		<item>Bahrain</item>
+
+		<!-- Bangladesh-->
+		<item>Bangladesh</item>
+
+		<!-- Barbados-->
+		<item>Barbados</item>
+
+		<!-- Belarus-->
+		<item>Belarus</item>
+
+		<!-- Belgium-->
+		<item>Belgium: Antwerpen</item>
+		<item>Belgium: Brabant wallon</item>
+		<item>Belgium: Brussels</item>
+		<item>Belgium: Hainaut</item>
+		<item>Belgium: Lège</item>
+		<item>Belgium: Limburg</item>
+		<item>Belgium: Luxembourg</item>
+		<item>Belgium: Namur</item>
+		<item>Belgium: Oost-Vlaanderen</item>
+		<item>Belgium: Vlaams-Brabant</item>
+		<item>Belgium: West-Vlaanderen</item>
+
+		<!-- Belize-->
+		<item>Belize</item>
+
+		<!-- Benin-->
+		<item>Benin</item>
+
+		<!-- Bermuda-->
+		<item>Bermuda</item>
+
+		<!-- Bhutan-->
+		<item>Bhutan</item>
+
+		<!-- Bolivia-->
+		<item>Bolivia</item>
+
+		<!-- Bonaire-->
+		<item>Bonaire</item>
+
+		<!-- Bosnia and Herzegovina-->
+		<item>Bosnia and Herzegovina</item>
+
+		<!-- Botswana-->
+		<item>Botswana</item>
+
+		<!-- Bouvet Island-->
+		<item>Bouvet Island</item>
+
+		<!-- Brazil-->
+		<item>Brazil: Acre</item>
+		<item>Brazil: Alagoas</item>
+		<item>Brazil: Amapá</item>
+		<item>Brazil: Amazonas</item>
+		<item>Brazil: Bahia</item>
+		<item>Brazil: Ceará</item>
+		<item>Brazil: Distrito Federal</item>
+		<item>Brazil: Espírito Santo</item>
+		<item>Brazil: Goiás</item>
+		<item>Brazil: Maranhão</item>
+		<item>Brazil: Mato Grosso</item>
+		<item>Brazil: Mato Grosso do Sul</item>
+		<item>Brazil: Minas Gerais</item>
+		<item>Brazil: Pará</item>
+		<item>Brazil: Paraíba</item>
+		<item>Brazil: Paraná</item>
+		<item>Brazil: Pernambuco</item>
+		<item>Brazil: Piauí</item>
+		<item>Brazil: Rio de Janeiro</item>
+		<item>Brazil: Rio Grande do Norte</item>
+		<item>Brazil: Rio Grande do Sul</item>
+		<item>Brazil: Rondônia</item>
+		<item>Brazil: Roraima</item>
+		<item>Brazil: Santa Catarina</item>
+		<item>Brazil: São Paulo</item>
+		<item>Brazil: Sergipe</item>
+		<item>Brazil: Tocantins</item>
+
+		<!-- British Indian Ocean Territories-->
+		<item>British Indian Ocean Territories</item>
+
+		<!-- British Virgin Islands-->
+		<item>British Virgin Islands</item>
+
+		<!-- Brunei-->
+		<item>Brunei</item>
+
+		<!-- Bulgaria-->
+		<item>Bulgaria</item>
+
+		<!-- Burkina Faso-->
+		<item>Burkina Faso</item>
+
+		<!-- Burundi-->
+		<item>Burundi</item>
+
+		<!-- Cambodia-->
+		<item>Cambodia</item>
+
+		<!-- Cameroon-->
+		<item>Cameroon</item>
+
+		<!-- Canada-->
+		<item>Canada: Alberta</item>
+		<item>Canada: British Columbia</item>
+		<item>Canada: Manitoba</item>
+		<item>Canada: New Brunswick</item>
+		<item>Canada: Newfoundland and Labrador</item>
+		<item>Canada: Northwest Territories</item>
+		<item>Canada: Nova Scotia</item>
+		<item>Canada: Nunavut</item>
+		<item>Canada: Ontario</item>
+		<item>Canada: Prince Edward Island</item>
+		<item>Canada: Quebec</item>
+		<item>Canada: Saskatchewan</item>
+		<item>Canada: Yukon Territory</item>
+
+		<!-- Cape Verde-->
+		<item>Cape Verde</item>
+
+		<!-- Cayman Islands-->
+		<item>Cayman Islands</item>
+
+		<!-- Central African Republic-->
+		<item>Central African Republic</item>
+
+		<!-- Chad-->
+		<item>Chad</item>
+
+		<!-- Chile-->
+		<item>Chile</item>
+
+		<!-- China-->
+		<item>China</item>
+
+		<!-- Christmas Island-->
+		<item>Christmas Island</item>
+
+		<!-- Cocos (Keeling) Islands-->
+		<item>Cocos (Keeling) Islands</item>
+
+		<!-- Colombia-->
+		<item>Colombia</item>
+
+		<!-- Comoros-->
+		<item>Comoros</item>
+
+		<!-- Congo-->
+		<item>Congo</item>
+
+		<!-- Cook Islands-->
+		<item>Cook Islands</item>
+
+		<!-- Costa Rica-->
+		<item>Costa Rica</item>
+
+		<!-- Croatia-->
+		<item>Croatia</item>
+
+		<!-- Cuba-->
+		<item>Cuba</item>
+
+		<!-- Curacao-->
+		<item>Curacao</item>
+
+		<!-- Cyprus-->
+		<item>Cyprus</item>
+
+		<!-- Czech Republic-->
+		<item>Czech Republic: Hlavni mesto Praha</item>
+		<item>Czech Republic: Jihocesky kraj</item>
+		<item>Czech Republic: Jihomoravsky kraj</item>
+		<item>Czech Republic: Karlovarsky kraj</item>
+		<item>Czech Republic: Kraj Vysocina</item>
+		<item>Czech Republic: Kralovehradecky kraj</item>
+		<item>Czech Republic: Liberecky kraj</item>
+		<item>Czech Republic: Moravskoslezsky kraj</item>
+		<item>Czech Republic: Olomoucky kraj</item>
+		<item>Czech Republic: Pardubicky kraj</item>
+		<item>Czech Republic: Plzensky kraj</item>
+		<item>Czech Republic: Stredocesky kraj</item>
+		<item>Czech Republic: Ustecky kraj</item>
+		<item>Czech Republic: Zlinsky kraj</item>
+
+		<!-- Democratic Republic of the Congo-->
+		<item>Democratic Republic of the Congo</item>
+
+		<!-- Denmark-->
+		<item>Denmark</item>
+
+		<!-- Djibouti-->
+		<item>Djibouti</item>
+
+		<!-- Dominica-->
+		<item>Dominica</item>
+
+		<!-- Dominican Republic-->
+		<item>Dominican Republic</item>
+
+		<!-- East Timor-->
+		<item>East Timor</item>
+
+		<!-- Ecuador-->
+		<item>Ecuador</item>
+
+		<!-- Egypt-->
+		<item>Egypt</item>
+
+		<!-- El Salvador-->
+		<item>El Salvador</item>
+
+		<!-- Equatorial Guinea-->
+		<item>Equatorial Guinea</item>
+
+		<!-- Eritrea-->
+		<item>Eritrea</item>
+
+		<!-- Estonia-->
+		<item>Estonia</item>
+
+		<!-- Ethiopia-->
+		<item>Ethiopia</item>
+
+		<!-- Falkland Islands-->
+		<item>Falkland Islands</item>
+
+		<!-- Faroe Islands-->
+		<item>Faroe Islands</item>
+
+		<!-- Fiji-->
+		<item>Fiji</item>
+
+		<!-- Finland-->
+		<item>Finland</item>
+
+		<!-- France-->
+		<item>France: Alsace</item>
+		<item>France: Aquitaine</item>
+		<item>France: Auvergne</item>
+		<item>France: Basse-Normandie</item>
+		<item>France: Bourgogne</item>
+		<item>France: Bretagne</item>
+		<item>France: Centre</item>
+		<item>France: Champagne-Ardenne</item>
+		<item>France: Corse</item>
+		<item>France: Franche-Comté</item>
+		<item>France: Haute-Normandie</item>
+		<item>France: Île-de-France</item>
+		<item>France: Languedoc-Roussillon</item>
+		<item>France: Limousin</item>
+		<item>France: Lorraine</item>
+		<item>France: Midi-Pyrénées</item>
+		<item>France: Nord-Pas-de-Calais</item>
+		<item>France: Pays de la Loire</item>
+		<item>France: Picardie</item>
+		<item>France: Poitou-Charentes</item>
+		<item>France: Provence-Alpes-Côte d\'Azur</item>
+		<item>France: Rhône-Alpes</item>
+
+		<!-- French Guiana-->
+		<item>French Guiana</item>
+
+		<!-- French Polynesia-->
+		<item>French Polynesia</item>
+
+		<!-- French Southern Territories-->
+		<item>French Southern Territories</item>
+
+		<!-- Gabon-->
+		<item>Gabon</item>
+
+		<!-- Gambia-->
+		<item>Gambia</item>
+
+		<!-- Germany-->
+		<item>Germany: Baden-Württemberg</item>
+		<item>Germany: Bayern</item>
+		<item>Germany: Berlin</item>
+		<item>Germany: Brandenburg</item>
+		<item>Germany: Bremen</item>
+		<item>Germany: Hamburg</item>
+		<item>Germany: Hessen</item>
+		<item>Germany: Mecklenburg-Vorpommern</item>
+		<item>Germany: Niedersachsen</item>
+		<item>Germany: Nordrhein-Westfalen</item>
+		<item>Germany: Rheinland-Pfalz</item>
+		<item>Germany: Saarland</item>
+		<item>Germany: Sachsen</item>
+		<item>Germany: Sachsen-Anhalt</item>
+		<item>Germany: Schleswig-Holstein</item>
+		<item>Germany: Thüringen</item>
+
+		<!-- Ghana-->
+		<item>Ghana</item>
+
+		<!-- Gibraltar-->
+		<item>Gibraltar</item>
+
+		<!-- Greece-->
+		<item>Greece</item>
+
+		<!-- Greenland-->
+		<item>Greenland</item>
+
+		<!-- Grenada-->
+		<item>Grenada</item>
+
+		<!-- Guadeloupe-->
+		<item>Guadeloupe</item>
+
+		<!-- Guam-->
+		<item>Guam</item>
+
+		<!-- Guatemala-->
+		<item>Guatemala</item>
+
+		<!-- Guernsey-->
+		<item>Guernsey</item>
+
+		<!-- Guinea-->
+		<item>Guinea</item>
+
+		<!-- Guinea-Bissau-->
+		<item>Guinea-Bissau</item>
+
+		<!-- Guyana-->
+		<item>Guyana</item>
+
+		<!-- Haiti-->
+		<item>Haiti</item>
+
+		<!-- Heard Island And Mcdonald Islands-->
+		<item>Heard Island And Mcdonald Islands</item>
+
+		<!-- Honduras-->
+		<item>Honduras</item>
+
+		<!-- Hong Kong-->
+		<item>Hong Kong</item>
+
+		<!-- Hungary-->
+		<item>Hungary: Bács-Kiskun</item>
+		<item>Hungary: Baranya</item>
+		<item>Hungary: Békés</item>
+		<item>Hungary: Borsod-Abaúj-Zemplén</item>
+		<item>Hungary: Budapest</item>
+		<item>Hungary: Csongrád</item>
+		<item>Hungary: Fejér</item>
+		<item>Hungary: Gyor-Moson-Sopron</item>
+		<item>Hungary: Hajdú-Bihar</item>
+		<item>Hungary: Heves</item>
+		<item>Hungary: Jász-Nagykun-Szolnok</item>
+		<item>Hungary: Komárom-Esztergom</item>
+		<item>Hungary: Nógrád</item>
+		<item>Hungary: Pest</item>
+		<item>Hungary: Somogy</item>
+		<item>Hungary: Szabolcs-Szatmár-Bereg</item>
+		<item>Hungary: Tolna</item>
+		<item>Hungary: Vas</item>
+		<item>Hungary: Veszprém</item>
+		<item>Hungary: Zala</item>
+
+		<!-- Iceland-->
+		<item>Iceland</item>
+
+		<!-- India-->
+		<item>India</item>
+
+		<!-- Indonesia-->
+		<item>Indonesia</item>
+
+		<!-- Iran-->
+		<item>Iran</item>
+
+		<!-- Iraq-->
+		<item>Iraq</item>
+
+		<!-- Ireland-->
+		<item>Ireland: Connacht</item>
+		<item>Ireland: Dublin</item>
+		<item>Ireland: Leinster</item>
+		<item>Ireland: Munster</item>
+		<item>Ireland: Ulster</item>
+
+		<!-- Isle of Man-->
+		<item>Isle of Man</item>
+
+		<!-- Israel-->
+		<item>Israel</item>
+
+		<!-- Italy-->
+		<item>Italy: Abruzzo</item>
+		<item>Italy: Basilicata</item>
+		<item>Italy: Calabria</item>
+		<item>Italy: Campania</item>
+		<item>Italy: Emilia–Romagna </item>
+		<item>Italy: Friuli–Venezia Giulia</item>
+		<item>Italy: Lazio</item>
+		<item>Italy: Liguria</item>
+		<item>Italy: Lombardia</item>
+		<item>Italy: Marche</item>
+		<item>Italy: Molise</item>
+		<item>Italy: Piemonte</item>
+		<item>Italy: Puglia</item>
+		<item>Italy: Sardegna</item>
+		<item>Italy: Sicilia</item>
+		<item>Italy: Toscana</item>
+		<item>Italy: Trentino–Alto Adige </item>
+		<item>Italy: Umbria</item>
+		<item>Italy: Valle d\'Aosta</item>
+		<item>Italy: Veneto</item>
+
+		<!-- Ivory Coast-->
+		<item>Ivory Coast</item>
+
+		<!-- Jamaica-->
+		<item>Jamaica</item>
+
+		<!-- Japan-->
+		<item>Japan: Aichi</item>
+		<item>Japan: Akita</item>
+		<item>Japan: Aomori</item>
+		<item>Japan: Chiba</item>
+		<item>Japan: Ehime</item>
+		<item>Japan: Fukui</item>
+		<item>Japan: Fukuoka</item>
+		<item>Japan: Fukushima</item>
+		<item>Japan: Gifu</item>
+		<item>Japan: Gunma</item>
+		<item>Japan: Hiroshima</item>
+		<item>Japan: Hokkaido</item>
+		<item>Japan: Hyogo</item>
+		<item>Japan: Ibaraki</item>
+		<item>Japan: Ishikawa</item>
+		<item>Japan: Iwate</item>
+		<item>Japan: Kagawa</item>
+		<item>Japan: Kagoshima</item>
+		<item>Japan: Kanagawa</item>
+		<item>Japan: Kochi</item>
+		<item>Japan: Kumamoto</item>
+		<item>Japan: Kyoto</item>
+		<item>Japan: Mie</item>
+		<item>Japan: Miyagi</item>
+		<item>Japan: Miyazaki</item>
+		<item>Japan: Nagano</item>
+		<item>Japan: Nagasaki</item>
+		<item>Japan: Nara</item>
+		<item>Japan: Niigata</item>
+		<item>Japan: Oita</item>
+		<item>Japan: Okayama</item>
+		<item>Japan: Okinawa</item>
+		<item>Japan: Osaka</item>
+		<item>Japan: Saga</item>
+		<item>Japan: Saitama</item>
+		<item>Japan: Shiga</item>
+		<item>Japan: Shimane</item>
+		<item>Japan: Shizuoka</item>
+		<item>Japan: Tochigi</item>
+		<item>Japan: Tokushima</item>
+		<item>Japan: Tokyo</item>
+		<item>Japan: Tottori</item>
+		<item>Japan: Toyama</item>
+		<item>Japan: Wakayama</item>
+		<item>Japan: Yamagata</item>
+		<item>Japan: Yamaguchi</item>
+		<item>Japan: Yamanashi</item>
+
+		<!-- Jersey-->
+		<item>Jersey</item>
+
+		<!-- Jordan-->
+		<item>Jordan</item>
+
+		<!-- Kazakhstan-->
+		<item>Kazakhstan</item>
+
+		<!-- Kenya-->
+		<item>Kenya</item>
+
+		<!-- Kiribati-->
+		<item>Kiribati</item>
+
+		<!-- Kuwait-->
+		<item>Kuwait</item>
+
+		<!-- Kyrgyzstan-->
+		<item>Kyrgyzstan</item>
+
+		<!-- Laos-->
+		<item>Laos</item>
+
+		<!-- Latvia-->
+		<item>Latvia</item>
+
+		<!-- Lebanon-->
+		<item>Lebanon</item>
+
+		<!-- Lesotho-->
+		<item>Lesotho</item>
+
+		<!-- Liberia-->
+		<item>Liberia</item>
+
+		<!-- Libya-->
+		<item>Libya</item>
+
+		<!-- Liechtenstein-->
+		<item>Liechtenstein</item>
+
+		<!-- Lithuania-->
+		<item>Lithuania</item>
+
+		<!-- Luxembourg-->
+		<item>Luxembourg</item>
+
+		<!-- Macau-->
+		<item>Macau</item>
+
+		<!-- Macedonia-->
+		<item>Macedonia</item>
+
+		<!-- Madagascar-->
+		<item>Madagascar</item>
+
+		<!-- Malawi-->
+		<item>Malawi</item>
+
+		<!-- Malaysia-->
+		<item>Malaysia</item>
+
+		<!-- Maldives-->
+		<item>Maldives</item>
+
+		<!-- Mali-->
+		<item>Mali</item>
+
+		<!-- Malta-->
+		<item>Malta</item>
+
+		<!-- Marshall Islands-->
+		<item>Marshall Islands</item>
+
+		<!-- Martinique-->
+		<item>Martinique</item>
+
+		<!-- Mauritania-->
+		<item>Mauritania</item>
+
+		<!-- Mauritius-->
+		<item>Mauritius</item>
+
+		<!-- Mayotte-->
+		<item>Mayotte</item>
+
+		<!-- Mexico-->
+		<item>Mexico: Aguascalientes</item>
+		<item>Mexico: Baja California</item>
+		<item>Mexico: Baja California Sur</item>
+		<item>Mexico: Campeche</item>
+		<item>Mexico: Chiapas</item>
+		<item>Mexico: Chihuahua</item>
+		<item>Mexico: Coahuila</item>
+		<item>Mexico: Colima</item>
+		<item>Mexico: Distrito Federal</item>
+		<item>Mexico: Durango</item>
+		<item>Mexico: Guanajuato</item>
+		<item>Mexico: Guerrero</item>
+		<item>Mexico: Hidalgo</item>
+		<item>Mexico: Jalisco</item>
+		<item>Mexico: México</item>
+		<item>Mexico: Michoacán</item>
+		<item>Mexico: Morelos</item>
+		<item>Mexico: Nayarit</item>
+		<item>Mexico: Nuevo León</item>
+		<item>Mexico: Oaxaca</item>
+		<item>Mexico: Puebla</item>
+		<item>Mexico: Querétaro</item>
+		<item>Mexico: Quintana Roo</item>
+		<item>Mexico: San Luis Potosí</item>
+		<item>Mexico: Sinaloa</item>
+		<item>Mexico: Sonora</item>
+		<item>Mexico: Tabasco</item>
+		<item>Mexico: Tamaulipas</item>
+		<item>Mexico: Tlaxcala</item>
+		<item>Mexico: Veracruz</item>
+		<item>Mexico: Yucatán</item>
+		<item>Mexico: Zacatecas</item>
+
+		<!-- Micronesia-->
+		<item>Micronesia</item>
+
+		<!-- Moldova-->
+		<item>Moldova</item>
+
+		<!-- Monaco-->
+		<item>Monaco</item>
+
+		<!-- Mongolia-->
+		<item>Mongolia</item>
+
+		<!-- Montenegro-->
+		<item>Montenegro</item>
+
+		<!-- Montserrat-->
+		<item>Montserrat</item>
+
+		<!-- Morocco-->
+		<item>Morocco</item>
+
+		<!-- Mozambique-->
+		<item>Mozambique</item>
+
+		<!-- Myanmar-->
+		<item>Myanmar</item>
+
+		<!-- Namibia-->
+		<item>Namibia</item>
+
+		<!-- Nauru-->
+		<item>Nauru</item>
+
+		<!-- Nepal-->
+		<item>Nepal</item>
+
+		<!-- Netherlands
+		<item>Netherlands</item>-->
+
+		<!-- Netherlands Antilles -->
+		<item>Netherlands: Drenthe</item>
+		<item>Netherlands: Flevoland</item>
+		<item>Netherlands: Friesland</item>
+		<item>Netherlands: Gelderland</item>
+		<item>Netherlands: Groningen</item>
+		<item>Netherlands: Limburg</item>
+		<item>Netherlands: Noord-Brabant</item>
+		<item>Netherlands: Noord-Holland</item>
+		<item>Netherlands: Overijssel</item>
+		<item>Netherlands: Utrecht</item>
+		<item>Netherlands: Zeeland</item>
+		<item>Netherlands: Zuid-Holland</item>
+
+		<!-- Nevis and St Kitts-->
+		<item>Nevis and St Kitts</item>
+
+		<!-- New Caledonia-->
+		<item>New Caledonia</item>
+
+		<!-- New Zealand -->
+		<item>New Zealand: Chatham Islands</item>
+		<item>New Zealand: North Island</item>
+		<item>New Zealand: South Island</item>
+
+		<!-- Nicaragua-->
+		<item>Nicaragua</item>
+
+		<!-- Niger-->
+		<item>Niger</item>
+
+		<!-- Nigeria-->
+		<item>Nigeria</item>
+
+		<!-- Niue-->
+		<item>Niue</item>
+
+		<!-- Norfolk Island-->
+		<item>Norfolk Island</item>
+
+		<!-- North Korea-->
+		<item>North Korea</item>
+
+		<!-- Northern Mariana Islands-->
+		<item>Northern Mariana Islands</item>
+
+		<!-- Norway-->
+		<item>Norway: Akershus</item>
+		<item>Norway: Aust-Agder</item>
+		<item>Norway: Buskerud</item>
+		<item>Norway: Finnmark</item>
+		<item>Norway: Hedmark</item>
+		<item>Norway: Hordaland</item>
+		<item>Norway: Møre og Romsdal</item>
+		<item>Norway: Nordland</item>
+		<item>Norway: Nord-Trøndelag</item>
+		<item>Norway: Oppland</item>
+		<item>Norway: Oslo</item>
+		<item>Norway: Østfold</item>
+		<item>Norway: Rogaland</item>
+		<item>Norway: Sogn og Fjordane</item>
+		<item>Norway: Sør-Trøndelag</item>
+		<item>Norway: Telemark</item>
+		<item>Norway: Troms</item>
+		<item>Norway: Vest-Agder</item>
+		<item>Norway: Vestfold</item>
+
+		<!-- Oman-->
+		<item>Oman</item>
+
+		<!-- Pakistan-->
+		<item>Pakistan</item>
+
+		<!-- Palau-->
+		<item>Palau</item>
+
+		<!-- Palestine-->
+		<item>Palestine</item>
+
+		<!-- Panama-->
+		<item>Panama</item>
+
+		<!-- Papua New Guinea-->
+		<item>Papua New Guinea</item>
+
+		<!-- Paraguay-->
+		<item>Paraguay</item>
+
+		<!-- Peru-->
+		<item>Peru</item>
+
+		<!-- Philippines-->
+		<item>Philippines</item>
+
+		<!-- Pitcairn Islands-->
+		<item>Pitcairn Islands</item>
+
+		<!-- Poland-->
+		<item>Poland: Dolnośląskie</item>
+		<item>Poland: Kujawsko-Pomorskie</item>
+		<item>Poland: Łódzkie</item>
+		<item>Poland: Lubelskie</item>
+		<item>Poland: Lubuskie</item>
+		<item>Poland: Małopolskie</item>
+		<item>Poland: Mazowieckie</item>
+		<item>Poland: Opolskie</item>
+		<item>Poland: Podkarpackie</item>
+		<item>Poland: Podlaskie</item>
+		<item>Poland: Pomorskie</item>
+		<item>Poland: Śląskie</item>
+		<item>Poland: Świętokrzyskie</item>
+		<item>Poland: Warmińsko-Mazurskie</item>
+		<item>Poland: Wielkopolskie</item>
+		<item>Poland: Zachodniopomorskie</item>
+
+		<!-- Portugal-->
+		<item>Portugal: Arquipélago da Madeira</item>
+		<item>Portugal: Arquipélago dos Açores</item>
+		<item>Portugal: Aveiro</item>
+		<item>Portugal: Beja</item>
+		<item>Portugal: Braga</item>
+		<item>Portugal: Bragança</item>
+		<item>Portugal: Castelo Branco</item>
+		<item>Portugal: Coimbra</item>
+		<item>Portugal: Évora</item>
+		<item>Portugal: Faro</item>
+		<item>Portugal: Guarda</item>
+		<item>Portugal: Leiria</item>
+		<item>Portugal: Lisboa</item>
+		<item>Portugal: Portalegre</item>
+		<item>Portugal: Porto</item>
+		<item>Portugal: Santarém</item>
+		<item>Portugal: Setúbal</item>
+		<item>Portugal: Viana do Castelo</item>
+		<item>Portugal: Vila Real</item>
+		<item>Portugal: Viseu</item>
+
+		<!-- Puerto Rico-->
+		<item>Puerto Rico</item>
+
+		<!-- Qatar-->
+		<item>Qatar</item>
+
+		<!-- Reunion-->
+		<item>Reunion</item>
+
+		<!-- Romania-->
+		<item>Romania</item>
+
+		<!-- Russia-->
+		<item>Russia</item>
+
+		<!-- Rwanda-->
+		<item>Rwanda</item>
+
+		<!-- Saba-->
+		<item>Saba</item>
+
+		<!-- Saint Helena-->
+		<item>Saint Helena</item>
+
+		<!-- Saint Kitts and Nevis-->
+		<item>Saint Kitts and Nevis</item>
+
+		<!-- Saint Lucia-->
+		<item>Saint Lucia</item>
+
+		<!-- Samoa-->
+		<item>Samoa</item>
+
+		<!-- San Marino-->
+		<item>San Marino</item>
+
+		<!-- Sao Tome and Principe-->
+		<item>Sao Tome and Principe</item>
+
+		<!-- Saudi Arabia-->
+		<item>Saudi Arabia</item>
+
+		<!-- Senegal-->
+		<item>Senegal</item>
+
+		<!-- Serbia-->
+		<item>Serbia</item>
+
+		<!-- Seychelles-->
+		<item>Seychelles</item>
+
+		<!-- Sierra Leone-->
+		<item>Sierra Leone</item>
+
+		<!-- Singapore-->
+		<item>Singapore</item>
+
+		<!-- Slovakia-->
+		<item>Slovakia: Banskobystrický kraj</item>
+		<item>Slovakia: Bratislavský kraj</item>
+		<item>Slovakia: Košický kraj</item>
+		<item>Slovakia: Nitriansky kraj</item>
+		<item>Slovakia: Prešovský kraj</item>
+		<item>Slovakia: Trenčiansky kraj</item>
+		<item>Slovakia: Trnavský kraj</item>
+		<item>Slovakia: Žilinský kraj</item>
+
+		<!-- Slovenia-->
+		<item>Slovenia</item>
+
+		<!-- Solomon Islands-->
+		<item>Solomon Islands</item>
+
+		<!-- Somalia-->
+		<item>Somalia</item>
+
+		<!-- South Africa-->
+		<item>South Africa: Eastern Cape</item>
+		<item>South Africa: Free State</item>
+		<item>South Africa: Gauteng</item>
+		<item>South Africa: Kwazulu Natal</item>
+		<item>South Africa: Limpopo</item>
+		<item>South Africa: Mpumalanga</item>
+		<item>South Africa: North West</item>
+		<item>South Africa: Northern Cape</item>
+		<item>South Africa: Western Cape</item>
+
+		<!-- South Georgia and Sandwich Islands-->
+		<item>South Georgia and Sandwich Islands</item>
+
+		<!-- South Korea-->
+		<item>South Korea: Busan</item>
+		<item>South Korea: Chungcheong buk do</item>
+		<item>South Korea: Chungcheong nam do</item>
+		<item>South Korea: Daegu</item>
+		<item>South Korea: Daejeon</item>
+		<item>South Korea: Gangwondo</item>
+		<item>South Korea: Gwangju</item>
+		<item>South Korea: Gyeonggido</item>
+		<item>South Korea: Gyeongsang buk do</item>
+		<item>South Korea: Gyeongsang nam do</item>
+		<item>South Korea: Incheon</item>
+		<item>South Korea: Jejudo</item>
+		<item>South Korea: Jeolla buk do</item>
+		<item>South Korea: Jeolla nam do</item>
+		<item>South Korea: Seoul</item>
+		<item>South Korea: Ulsan</item>
+
+		<!-- South Sudan-->
+		<item>South Sudan</item>
+
+		<!-- Spain -->
+		<item>Spain: Andalucía</item>
+		<item>Spain: Aragón</item>
+		<item>Spain: Cantabria</item>
+		<item>Spain: Castilla y León</item>
+		<item>Spain: Castilla-La Mancha</item>
+		<item>Spain: Cataluña</item>
+		<item>Spain: Ceuta</item>
+		<item>Spain: Comunidad de Madrid</item>
+		<item>Spain: Comunidad Foral de Navarra</item>
+		<item>Spain: Comunidad Valenciana</item>
+		<item>Spain: Extremadura</item>
+		<item>Spain: Galicia</item>
+		<item>Spain: Islas Baleares</item>
+		<item>Spain: Islas Canarias</item>
+		<item>Spain: La Rioja</item>
+		<item>Spain: Melilla</item>
+		<item>Spain: País Vasco</item>
+		<item>Spain: Principado de Asturias</item>
+		<item>Spain: Región de Murcia</item>
+
+		<!-- Sri Lanka-->
+		<item>Sri Lanka</item>
+
+		<!-- St Barthelemy-->
+		<item>St Barthelemy</item>
+
+		<!-- St Eustatius-->
+		<item>St Eustatius</item>
+
+		<!-- St Kitts-->
+		<item>St Kitts</item>
+
+		<!-- St Pierre Miquelon-->
+		<item>St Pierre Miquelon</item>
+
+		<!-- St Vince Grenadines-->
+		<item>St Vince Grenadines</item>
+
+		<!-- St. Martin-->
+		<item>St. Martin</item>
+
+		<!-- Sudan-->
+		<item>Sudan</item>
+
+		<!-- Suriname-->
+		<item>Suriname</item>
+
+		<!-- Svalbard and Jan Mayen-->
+		<item>Svalbard and Jan Mayen</item>
+
+		<!-- Swaziland-->
+		<item>Swaziland</item>
+
+		<!-- Sweden-->
+		<item>Sweden: Blekinge</item>
+		<item>Sweden: Dalarna</item>
+		<item>Sweden: Gävleborg</item>
+		<item>Sweden: Gotland</item>
+		<item>Sweden: Halland</item>
+		<item>Sweden: Jämtland</item>
+		<item>Sweden: Jönköping</item>
+		<item>Sweden: Kalmar</item>
+		<item>Sweden: Kronoberg</item>
+		<item>Sweden: Norrbotten</item>
+		<item>Sweden: Örebro</item>
+		<item>Sweden: Östergötland</item>
+		<item>Sweden: Skåne</item>
+		<item>Sweden: Södermanland</item>
+		<item>Sweden: Stockholm</item>
+		<item>Sweden: Uppsala</item>
+		<item>Sweden: Värmland</item>
+		<item>Sweden: Västerbotten</item>
+		<item>Sweden: Västernorrland</item>
+		<item>Sweden: Västmanland</item>
+		<item>Sweden: Västra Götaland</item>
+
+		<!-- Switzerland-->
+		<item>Switzerland: Espace Mittelland (BE/SO)</item>
+		<item>Switzerland: Graubuenden (GR)</item>
+		<item>Switzerland: Jura (JU/NE)</item>
+		<item>Switzerland: Nordwestschweiz (AG/BL/BS)</item>
+		<item>Switzerland: Ostschweiz (SG/SH/TG/AI/AR/GL)</item>
+		<item>Switzerland: Region Zuerich (ZH)</item>
+		<item>Switzerland: Suisse romande (GE/VD/FR)</item>
+		<item>Switzerland: Tessin (TI)</item>
+		<item>Switzerland: Wallis (VS)</item>
+		<item>Switzerland: Zentralschweiz (ZG/SZ/LU/UR/OW/NW)</item>
+
+		<!-- Syria-->
+		<item>Syria</item>
+
+		<!-- Taiwan-->
+		<item>Taiwan</item>
+
+		<!-- Tajikistan-->
+		<item>Tajikistan</item>
+
+		<!-- Tanzania-->
+		<item>Tanzania</item>
+
+		<!-- Thailand-->
+		<item>Thailand</item>
+
+		<!-- Togo-->
+		<item>Togo</item>
+
+		<!-- Tokelau-->
+		<item>Tokelau</item>
+
+		<!-- Tonga-->
+		<item>Tonga</item>
+
+		<!-- Trinidad and Tobago-->
+		<item>Trinidad and Tobago</item>
+
+		<!-- Tunisia-->
+		<item>Tunisia</item>
+
+		<!-- Turkey-->
+		<item>Turkey</item>
+
+		<!-- Turkmenistan-->
+		<item>Turkmenistan</item>
+
+		<!-- Turks and Caicos Islands-->
+		<item>Turks and Caicos Islands</item>
+
+		<!-- Tuvalu-->
+		<item>Tuvalu</item>
+
+		<!-- Uganda-->
+		<item>Uganda</item>
+
+		<!-- Ukraine-->
+		<item>Ukraine</item>
+
+		<!-- United Arab Emirates-->
+		<item>United Arab Emirates</item>
+
+		<!-- United Kingdom-->
+		<item>United Kingdom: East Midlands</item>
+		<item>United Kingdom: Eastern England</item>
+		<item>United Kingdom: London</item>
+		<item>United Kingdom: North Wales</item>
+		<item>United Kingdom: Northeast England</item>
+		<item>United Kingdom: Northern Scotland</item>
+		<item>United Kingdom: Northwest England</item>
+		<item>United Kingdom: South East England</item>
+		<item>United Kingdom: South Wales</item>
+		<item>United Kingdom: South West England</item>
+		<item>United Kingdom: Southern England</item>
+		<item>United Kingdom: Southern Scotland</item>
+		<item>United Kingdom: West Midlands</item>
+		<item>United Kingdom: Yorkshire</item>
+
+		<!-- United States-->
+		<item>United States: Alabama</item>
+		<item>United States: Alaska</item>
+		<item>United States: Arizona</item>
+		<item>United States: Arkansas</item>
+		<item>United States: California</item>
+		<item>United States: Colorado</item>
+		<item>United States: Connecticut</item>
+		<item>United States: Delaware</item>
+		<item>United States: District of Columbia</item>
+		<item>United States: Florida</item>
+		<item>United States: Georgia</item>
+		<item>United States: Hawaii</item>
+		<item>United States: Idaho</item>
+		<item>United States: Illinois</item>
+		<item>United States: Indiana</item>
+		<item>United States: Iowa</item>
+		<item>United States: Kansas</item>
+		<item>United States: Kentucky</item>
+		<item>United States: Louisiana</item>
+		<item>United States: Maine</item>
+		<item>United States: Maryland</item>
+		<item>United States: Massachusetts</item>
+		<item>United States: Michigan</item>
+		<item>United States: Minnesota</item>
+		<item>United States: Mississippi</item>
+		<item>United States: Missouri</item>
+		<item>United States: Montana</item>
+		<item>United States: Nebraska</item>
+		<item>United States: Nevada</item>
+		<item>United States: New Hampshire</item>
+		<item>United States: New Jersey</item>
+		<item>United States: New Mexico</item>
+		<item>United States: New York</item>
+		<item>United States: North Carolina</item>
+		<item>United States: North Dakota</item>
+		<item>United States: Ohio</item>
+		<item>United States: Oklahoma</item>
+		<item>United States: Oregon</item>
+		<item>United States: Pennsylvania</item>
+		<item>United States: Rhode Island</item>
+		<item>United States: South Carolina</item>
+		<item>United States: South Dakota</item>
+		<item>United States: Tennessee</item>
+		<item>United States: Texas</item>
+		<item>United States: Utah</item>
+		<item>United States: Vermont</item>
+		<item>United States: Virginia</item>
+		<item>United States: Washington</item>
+		<item>United States: West Virginia</item>
+		<item>United States: Wisconsin</item>
+		<item>United States: Wyoming</item>
+
+		<!-- Unknown-->
+		<item>Unknown</item>
+
+		<!-- Uruguay-->
+		<item>Uruguay</item>
+
+		<!-- US Minor Outlying Islands-->
+		<item>US Minor Outlying Islands</item>
+
+		<!-- US Virgin Islands-->
+		<item>US Virgin Islands</item>
+
+		<!-- Uzbekistan-->
+		<item>Uzbekistan</item>
+
+		<!-- Vanuatu-->
+		<item>Vanuatu</item>
+
+		<!-- Vatican City State-->
+		<item>Vatican City State</item>
+
+		<!-- Venezuela-->
+		<item>Venezuela</item>
+
+		<!-- Vietnam-->
+		<item>Vietnam</item>
+
+		<!-- Wallis And Futuna Islands-->
+		<item>Wallis And Futuna Islands</item>
+
+		<!-- Western Sahara-->
+		<item>Western Sahara</item>
+
+		<!-- Yemen-->
+		<item>Yemen</item>
+
+		<!-- Zambia-->
+		<item>Zambia</item>
+
+		<!-- Zimbabwe-->
+		<item>Zimbabwe</item>
+
+    </string-array>
+
+
+    <string-array name="pref_lst_countries_values">
+		<!-- Afghanistan-->
+		<item>112</item>
+
+		<!-- Aland Islands-->
+		<item>1272</item>
+
+		<!-- Albania-->
+		<item>1244</item>
+
+		<!-- Algeria-->
+		<item>114</item>
+
+		<!-- American Samoa-->
+		<item>1245</item>
+
+		<!-- Andorra-->
+		<item>116</item>
+
+		<!-- Angola-->
+		<item>117</item>
+
+		<!-- Anguilla-->
+		<item>1246</item>
+
+		<!-- Antarctica-->
+		<item>118</item>
+
+		<!-- Antigua and Barbuda-->
+		<item>113</item>
+
+		<!-- Argentina-->
+		<item>119</item>
+
+		<!-- Armenia-->
+		<item>115</item>
+
+		<!-- Aruba-->
+		<item>120</item>
+
+		<!-- Australia-->
+		<item>259</item>
+		<item>252</item>
+		<item>258</item>
+		<item>254</item>
+		<item>255</item>
+		<item>257</item>
+		<item>253</item>
+		<item>256</item>
+
+		<!-- Austria-->
+		<item>2258</item>
+		<item>2259</item>
+		<item>2260</item>
+		<item>2261</item>
+		<item>2262</item>
+		<item>2263</item>
+		<item>2264</item>
+		<item>2265</item>
+		<item>2295</item>
+
+		<!-- Azerbaijan-->
+		<item>121</item>
+
+		<!-- Bahamas-->
+		<item>123</item>
+
+		<!-- Bahrain-->
+		<item>129</item>
+
+		<!-- Bangladesh-->
+		<item>124</item>
+
+		<!-- Barbados-->
+		<item>125</item>
+
+		<!-- Belarus-->
+		<item>140</item>
+
+		<!-- Belgium-->
+		<item>287</item>
+		<item>291</item>
+		<item>293</item>
+		<item>288</item>
+		<item>280</item>
+		<item>289</item>
+		<item>290</item>
+		<item>281</item>
+		<item>276</item>
+		<item>278</item>
+		<item>292</item>
+
+		<!-- Belize-->
+		<item>131</item>
+
+		<!-- Benin-->
+		<item>126</item>
+
+		<!-- Bermuda-->
+		<item>127</item>
+
+		<!-- Bhutan-->
+		<item>130</item>
+
+		<!-- Bolivia-->
+		<item>132</item>
+
+		<!-- Bonaire-->
+		<item>1275</item>
+
+		<!-- Bosnia and Herzegovina-->
+		<item>1234</item>
+
+		<!-- Botswana-->
+		<item>133</item>
+
+		<!-- Bouvet Island-->
+		<item>1247</item>
+
+		<!-- Brazil-->
+		<item>2162</item>
+		<item>2163</item>
+		<item>2164</item>
+		<item>2165</item>
+		<item>2166</item>
+		<item>2167</item>
+		<item>2168</item>
+		<item>2169</item>
+		<item>2170</item>
+		<item>2171</item>
+		<item>2172</item>
+		<item>2173</item>
+		<item>2174</item>
+		<item>2175</item>
+		<item>2176</item>
+		<item>2177</item>
+		<item>2178</item>
+		<item>2179</item>
+		<item>2180</item>
+		<item>2181</item>
+		<item>2182</item>
+		<item>2183</item>
+		<item>2184</item>
+		<item>2185</item>
+		<item>2186</item>
+		<item>2187</item>
+		<item>2188</item>
+
+		<!-- British Indian Ocean Territories-->
+		<item>1248</item>
+
+		<!-- British Virgin Islands-->
+		<item>139</item>
+
+		<!-- Brunei-->
+		<item>136</item>
+
+		<!-- Bulgaria-->
+		<item>137</item>
+
+		<!-- Burkina Faso-->
+		<item>1216</item>
+
+		<!-- Burundi-->
+		<item>135</item>
+
+		<!-- Cambodia-->
+		<item>142</item>
+
+		<!-- Cameroon-->
+		<item>143</item>
+
+		<!-- Canada-->
+		<item>263</item>
+		<item>264</item>
+		<item>265</item>
+		<item>266</item>
+		<item>267</item>
+		<item>272</item>
+		<item>268</item>
+		<item>273</item>
+		<item>269</item>
+		<item>270</item>
+		<item>262</item>
+		<item>271</item>
+		<item>274</item>
+
+		<!-- Cape Verde-->
+		<item>1239</item>
+
+		<!-- Cayman Islands-->
+		<item>144</item>
+
+		<!-- Central African Republic-->
+		<item>146</item>
+
+		<!-- Chad-->
+		<item>1249</item>
+
+		<!-- Chile-->
+		<item>16</item>
+
+		<!-- China-->
+		<item>147</item>
+
+		<!-- Christmas Island-->
+		<item>1250</item>
+
+		<!-- Cocos (Keeling) Islands-->
+		<item>1251</item>
+
+		<!-- Colombia-->
+		<item>149</item>
+
+		<!-- Comoros-->
+		<item>150</item>
+
+		<!-- Congo-->
+		<item>151</item>
+
+		<!-- Cook Islands-->
+		<item>148</item>
+
+		<!-- Costa Rica-->
+		<item>152</item>
+
+		<!-- Croatia-->
+		<item>153</item>
+
+		<!-- Cuba-->
+		<item>1238</item>
+
+		<!-- Curacao-->
+		<item>154</item>
+
+		<!-- Cyprus-->
+		<item>155</item>
+
+		<!-- Czech Republic-->
+		<item>2286</item>
+		<item>2274</item>
+		<item>2273</item>
+		<item>2276</item>
+		<item>2284</item>
+		<item>2275</item>
+		<item>2277</item>
+		<item>2279</item>
+		<item>2278</item>
+		<item>2280</item>
+		<item>2281</item>
+		<item>2282</item>
+		<item>2283</item>
+		<item>2285</item>
+
+		<!-- Democratic Republic of the Congo-->
+		<item>1257</item>
+
+		<!-- Denmark-->
+		<item>157</item>
+
+		<!-- Djibouti-->
+		<item>158</item>
+
+		<!-- Dominica-->
+		<item>159</item>
+
+		<!-- Dominican Republic-->
+		<item>160</item>
+
+		<!-- East Timor-->
+		<item>1252</item>
+
+		<!-- Ecuador-->
+		<item>161</item>
+
+		<!-- Egypt-->
+		<item>163</item>
+
+		<!-- El Salvador-->
+		<item>164</item>
+
+		<!-- Equatorial Guinea-->
+		<item>162</item>
+
+		<!-- Eritrea-->
+		<item>165</item>
+
+		<!-- Estonia-->
+		<item>166</item>
+
+		<!-- Ethiopia-->
+		<item>167</item>
+
+		<!-- Falkland Islands-->
+		<item>169</item>
+
+		<!-- Faroe Islands-->
+		<item>168</item>
+
+		<!-- Fiji-->
+		<item>171</item>
+
+		<!-- Finland-->
+		<item>172</item>
+
+		<!-- France-->
+		<item>2433</item>
+		<item>2412</item>
+		<item>2413</item>
+		<item>2414</item>
+		<item>2415</item>
+		<item>2416</item>
+		<item>2417</item>
+		<item>2418</item>
+		<item>2419</item>
+		<item>2420</item>
+		<item>2421</item>
+		<item>2422</item>
+		<item>2423</item>
+		<item>2424</item>
+		<item>2425</item>
+		<item>2426</item>
+		<item>2427</item>
+		<item>2428</item>
+		<item>2429</item>
+		<item>2430</item>
+		<item>2431</item>
+		<item>2432</item>
+
+		<!-- French Guiana-->
+		<item>170</item>
+
+		<!-- French Polynesia-->
+		<item>174</item>
+
+		<!-- French Southern Territories-->
+		<item>1253</item>
+
+		<!-- Gabon-->
+		<item>175</item>
+
+		<!-- Gambia-->
+		<item>176</item>
+
+		<!-- Georgia-->
+		<item>2135</item>
+		<item>2136</item>
+		<item>2137</item>
+		<item>2138</item>
+		<item>2139</item>
+		<item>2140</item>
+		<item>2150</item>
+		<item>2141</item>
+		<item>2142</item>
+		<item>2143</item>
+		<item>2144</item>
+		<item>2145</item>
+		<item>2146</item>
+		<item>2147</item>
+		<item>2148</item>
+		<item>2149</item>
+
+		<!-- Ghana-->
+		<item>1254</item>
+
+		<!-- Gibraltar-->
+		<item>180</item>
+
+		<!-- Greece-->
+		<item>182</item>
+
+		<!-- Greenland-->
+		<item>183</item>
+
+		<!-- Grenada-->
+		<item>181</item>
+
+		<!-- Guadeloupe-->
+		<item>177</item>
+
+		<!-- Guam-->
+		<item>1229</item>
+
+		<!-- Guatemala-->
+		<item>184</item>
+
+		<!-- Guernsey-->
+		<item>186</item>
+
+		<!-- Guinea-->
+		<item>1255</item>
+
+		<!-- Guinea-Bissau-->
+		<item>185</item>
+
+		<!-- Guyana-->
+		<item>187</item>
+
+		<!-- Haiti-->
+		<item>189</item>
+
+		<!-- Heard Island And Mcdonald Islands-->
+		<item>1256</item>
+
+		<!-- Honduras-->
+		<item>190</item>
+
+		<!-- Hong Kong-->
+		<item>191</item>
+
+		<!-- Hungary-->
+		<item>2434</item>
+		<item>2435</item>
+		<item>2436</item>
+		<item>2437</item>
+		<item>2438</item>
+		<item>2439</item>
+		<item>2440</item>
+		<item>2441</item>
+		<item>2442</item>
+		<item>2443</item>
+		<item>2444</item>
+		<item>2445</item>
+		<item>2446</item>
+		<item>2447</item>
+		<item>2448</item>
+		<item>2449</item>
+		<item>2450</item>
+		<item>2451</item>
+		<item>2452</item>
+		<item>2453</item>
+
+		<!-- Iceland-->
+		<item>193</item>
+
+		<!-- India-->
+		<item>194</item>
+
+		<!-- Indonesia-->
+		<item>195</item>
+
+		<!-- Iran-->
+		<item>196</item>
+
+		<!-- Iraq-->
+		<item>197</item>
+
+		<!-- Ireland-->
+		<item>2227</item>
+		<item>2226</item>
+		<item>2228</item>
+		<item>2225</item>
+		<item>2224</item>
+
+		<!-- Isle of Man-->
+		<item>1243</item>
+
+		<!-- Israel-->
+		<item>198</item>
+
+		<!-- Italy-->
+		<item>2189</item>
+		<item>2190</item>
+		<item>2192</item>
+		<item>2193</item>
+		<item>2194</item>
+		<item>2195</item>
+		<item>2196</item>
+		<item>2197</item>
+		<item>2198</item>
+		<item>2199</item>
+		<item>2200</item>
+		<item>2201</item>
+		<item>2202</item>
+		<item>2203</item>
+		<item>2204</item>
+		<item>2205</item>
+		<item>2206</item>
+		<item>2207</item>
+		<item>2208</item>
+		<item>2209</item>
+
+		<!-- Ivory Coast-->
+		<item>1100</item>
+
+		<!-- Jamaica-->
+		<item>1101</item>
+
+		<!-- Japan-->
+		<item>2312</item>
+		<item>2383</item>
+		<item>2313</item>
+		<item>2314</item>
+		<item>2315</item>
+		<item>2316</item>
+		<item>2317</item>
+		<item>2318</item>
+		<item>2319</item>
+		<item>2320</item>
+		<item>2321</item>
+		<item>2322</item>
+		<item>2323</item>
+		<item>2324</item>
+		<item>2325</item>
+		<item>2326</item>
+		<item>2327</item>
+		<item>2328</item>
+		<item>2329</item>
+		<item>2330</item>
+		<item>2331</item>
+		<item>2332</item>
+		<item>2333</item>
+		<item>2334</item>
+		<item>2335</item>
+		<item>2336</item>
+		<item>2337</item>
+		<item>2338</item>
+		<item>2339</item>
+		<item>2340</item>
+		<item>2341</item>
+		<item>2342</item>
+		<item>2343</item>
+		<item>2344</item>
+		<item>2345</item>
+		<item>2346</item>
+		<item>2347</item>
+		<item>2348</item>
+		<item>2349</item>
+		<item>2350</item>
+		<item>2351</item>
+		<item>2352</item>
+		<item>2353</item>
+		<item>2354</item>
+		<item>2355</item>
+		<item>2356</item>
+		<item>2357</item>
+
+		<!-- Jersey-->
+		<item>1102</item>
+
+		<!-- Jordan-->
+		<item>1103</item>
+
+		<!-- Kazakhstan-->
+		<item>1106</item>
+
+		<!-- Kenya-->
+		<item>1107</item>
+
+		<!-- Kiribati-->
+		<item>1109</item>
+
+		<!-- Kuwait-->
+		<item>1241</item>
+
+		<!-- Kyrgyzstan-->
+		<item>1108</item>
+
+		<!-- Laos-->
+		<item>1110</item>
+
+		<!-- Latvia-->
+		<item>1111</item>
+
+		<!-- Lebanon-->
+		<item>1113</item>
+
+		<!-- Lesotho-->
+		<item>1114</item>
+
+		<!-- Liberia-->
+		<item>1115</item>
+
+		<!-- Libya-->
+		<item>1112</item>
+
+		<!-- Liechtenstein-->
+		<item>1116</item>
+
+		<!-- Lithuania-->
+		<item>1117</item>
+
+		<!-- Luxembourg-->
+		<item>18</item>
+
+		<!-- Macau-->
+		<item>1258</item>
+
+		<!-- Macedonia-->
+		<item>1125</item>
+
+		<!-- Madagascar-->
+		<item>1119</item>
+
+		<!-- Malawi-->
+		<item>1129</item>
+
+		<!-- Malaysia-->
+		<item>1121</item>
+
+		<!-- Maldives-->
+		<item>1124</item>
+
+		<!-- Mali-->
+		<item>1127</item>
+
+		<!-- Malta-->
+		<item>1128</item>
+
+		<!-- Marshall Islands-->
+		<item>1240</item>
+
+		<!-- Martinique-->
+		<item>1122</item>
+
+		<!-- Mauritania-->
+		<item>1123</item>
+
+		<!-- Mauritius-->
+		<item>1134</item>
+
+		<!-- Mayotte-->
+		<item>1259</item>
+
+		<!-- Mexico-->
+		<item>2454</item>
+		<item>2455</item>
+		<item>2456</item>
+		<item>2457</item>
+		<item>2458</item>
+		<item>2459</item>
+		<item>2460</item>
+		<item>2461</item>
+		<item>2462</item>
+		<item>2463</item>
+		<item>2464</item>
+		<item>2465</item>
+		<item>2466</item>
+		<item>2467</item>
+		<item>2468</item>
+		<item>2469</item>
+		<item>2470</item>
+		<item>2471</item>
+		<item>2472</item>
+		<item>2473</item>
+		<item>2474</item>
+		<item>2475</item>
+		<item>2476</item>
+		<item>2477</item>
+		<item>2478</item>
+		<item>2479</item>
+		<item>2480</item>
+		<item>2481</item>
+		<item>2482</item>
+		<item>2483</item>
+		<item>2484</item>
+		<item>2485</item>
+
+		<!-- Micronesia-->
+		<item>1242</item>
+
+		<!-- Moldova-->
+		<item>1237</item>
+
+		<!-- Monaco-->
+		<item>1130</item>
+
+		<!-- Mongolia-->
+		<item>1131</item>
+
+		<!-- Montenegro-->
+		<item>1274</item>
+
+		<!-- Montserrat-->
+		<item>1135</item>
+
+		<!-- Morocco-->
+		<item>1132</item>
+
+		<!-- Mozambique-->
+		<item>1133</item>
+
+		<!-- Myanmar-->
+		<item>1136</item>
+
+		<!-- Namibia-->
+		<item>1137</item>
+
+		<!-- Nauru-->
+		<item>1138</item>
+
+		<!-- Nepal-->
+		<item>1140</item>
+
+		<!-- Netherlands
+		<item>1141</item>-->
+
+		<!-- Netherlands Antilles -->
+		<item>2385</item>
+		<item>2395</item>
+		<item>2394</item>
+		<item>2387</item>
+		<item>2384</item>
+		<item>2393</item>
+		<item>2392</item>
+		<item>2389</item>
+		<item>2386</item>
+		<item>2388</item>
+		<item>2391</item>
+		<item>2390</item>
+
+		<!-- Nevis and St Kitts-->
+		<item>1142</item>
+
+		<!-- New Caledonia-->
+		<item>141</item>
+
+		<!-- New Zealand -->
+		<item>2486</item>
+		<item>282</item>
+		<item>286</item>
+
+		<!-- Nicaragua-->
+		<item>1144</item>
+
+		<!-- Niger-->
+		<item>1143</item>
+
+		<!-- Nigeria-->
+		<item>1145</item>
+
+		<!-- Niue-->
+		<item>1149</item>
+
+		<!-- Norfolk Island-->
+		<item>1260</item>
+
+		<!-- North Korea-->
+		<item>1146</item>
+
+		<!-- Northern Mariana Islands-->
+		<item>1236</item>
+
+		<!-- Norway-->
+		<item>2240</item>
+		<item>2247</item>
+		<item>2244</item>
+		<item>2257</item>
+		<item>2242</item>
+		<item>2250</item>
+		<item>2252</item>
+		<item>2255</item>
+		<item>2254</item>
+		<item>2243</item>
+		<item>2241</item>
+		<item>2239</item>
+		<item>2249</item>
+		<item>2251</item>
+		<item>2253</item>
+		<item>2245</item>
+		<item>2256</item>
+		<item>2248</item>
+		<item>2246</item>
+
+		<!-- Oman-->
+		<item>1150</item>
+
+		<!-- Pakistan-->
+		<item>1151</item>
+
+		<!-- Palau-->
+		<item>1261</item>
+
+		<!-- Palestine-->
+		<item>1276</item>
+
+		<!-- Panama-->
+		<item>1152</item>
+
+		<!-- Papua New Guinea-->
+		<item>1156</item>
+
+		<!-- Paraguay-->
+		<item>1262</item>
+
+		<!-- Peru-->
+		<item>1153</item>
+
+		<!-- Philippines-->
+		<item>1154</item>
+
+		<!-- Pitcairn Islands-->
+		<item>1155</item>
+
+		<!-- Poland-->
+		<item>2396</item>
+		<item>2397</item>
+		<item>2400</item>
+		<item>2398</item>
+		<item>2399</item>
+		<item>2401</item>
+		<item>2402</item>
+		<item>2403</item>
+		<item>2404</item>
+		<item>2405</item>
+		<item>2406</item>
+		<item>2407</item>
+		<item>2408</item>
+		<item>2409</item>
+		<item>2410</item>
+		<item>2411</item>
+
+		<!-- Portugal-->
+		<item>2113</item>
+		<item>2114</item>
+		<item>295</item>
+		<item>296</item>
+		<item>297</item>
+		<item>298</item>
+		<item>299</item>
+		<item>2100</item>
+		<item>2101</item>
+		<item>2102</item>
+		<item>2103</item>
+		<item>2104</item>
+		<item>2105</item>
+		<item>2106</item>
+		<item>2107</item>
+		<item>2108</item>
+		<item>2109</item>
+		<item>2110</item>
+		<item>2112</item>
+		<item>2111</item>
+
+		<!-- Puerto Rico-->
+		<item>1226</item>
+
+		<!-- Qatar-->
+		<item>1160</item>
+
+		<!-- Reunion-->
+		<item>1161</item>
+
+		<!-- Romania-->
+		<item>1162</item>
+
+		<!-- Russia-->
+		<item>1163</item>
+
+		<!-- Rwanda-->
+		<item>1164</item>
+
+		<!-- Saba-->
+		<item>1277</item>
+
+		<!-- Saint Helena-->
+		<item>1171</item>
+
+		<!-- Saint Kitts and Nevis-->
+		<item>1264</item>
+
+		<!-- Saint Lucia-->
+		<item>1173</item>
+
+		<!-- Samoa-->
+		<item>1217</item>
+
+		<!-- San Marino-->
+		<item>1183</item>
+
+		<!-- Sao Tome and Principe-->
+		<item>1176</item>
+
+		<!-- Saudi Arabia-->
+		<item>1166</item>
+
+		<!-- Senegal-->
+		<item>1167</item>
+
+		<!-- Serbia-->
+		<item>1222</item>
+
+		<!-- Seychelles-->
+		<item>1168</item>
+
+		<!-- Sierra Leone-->
+		<item>1178</item>
+
+		<!-- Singapore-->
+		<item>1179</item>
+
+		<!-- Slovakia-->
+		<item>2287</item>
+		<item>2288</item>
+		<item>2289</item>
+		<item>2290</item>
+		<item>2291</item>
+		<item>2292</item>
+		<item>2293</item>
+		<item>2294</item>
+
+		<!-- Slovenia-->
+		<item>1181</item>
+
+		<!-- Solomon Islands-->
+		<item>1184</item>
+
+		<!-- Somalia-->
+		<item>1185</item>
+
+		<!-- South Africa-->
+		<item>2153</item>
+		<item>2160</item>
+		<item>2159</item>
+		<item>2157</item>
+		<item>2158</item>
+		<item>2155</item>
+		<item>2156</item>
+		<item>2154</item>
+		<item>2152</item>
+
+		<!-- South Georgia and Sandwich Islands-->
+		<item>1267</item>
+
+		<!-- South Korea-->
+		<item>2297</item>
+		<item>2305</item>
+		<item>2306</item>
+		<item>2298</item>
+		<item>2301</item>
+		<item>2304</item>
+		<item>2300</item>
+		<item>2303</item>
+		<item>2309</item>
+		<item>2310</item>
+		<item>2299</item>
+		<item>2311</item>
+		<item>2307</item>
+		<item>2308</item>
+		<item>2296</item>
+		<item>2302</item>
+
+		<!-- South Sudan-->
+		<item>1278</item>
+
+		<!-- Spain -->
+		<item>2116</item>
+		<item>2119</item>
+		<item>2130</item>
+		<item>2115</item>
+		<item>2117</item>
+		<item>2121</item>
+		<item>2133</item>
+		<item>2127</item>
+		<item>2126</item>
+		<item>2123</item>
+		<item>2120</item>
+		<item>2122</item>
+		<item>2132</item>
+		<item>2128</item>
+		<item>2131</item>
+		<item>2134</item>
+		<item>2129</item>
+		<item>2125</item>
+		<item>2124</item>
+
+		<!-- Sri Lanka-->
+		<item>1187</item>
+
+		<!-- St Barthelemy-->
+		<item>1169</item>
+
+		<!-- St Eustatius-->
+		<item>1170</item>
+
+		<!-- St Kitts-->
+		<item>1172</item>
+
+		<!-- St Pierre Miquelon-->
+		<item>1175</item>
+
+		<!-- St Vince Grenadines-->
+		<item>1177</item>
+
+		<!-- St. Martin-->
+		<item>1174</item>
+
+		<!-- Sudan-->
+		<item>1188</item>
+
+		<!-- Suriname-->
+		<item>1189</item>
+
+		<!-- Svalbard and Jan Mayen-->
+		<item>1268</item>
+
+		<!-- Swaziland-->
+		<item>1190</item>
+
+		<!-- Sweden-->
+		<item>2359</item>
+		<item>2360</item>
+		<item>2362</item>
+		<item>2361</item>
+		<item>2363</item>
+		<item>2364</item>
+		<item>2365</item>
+		<item>2366</item>
+		<item>2367</item>
+		<item>2368</item>
+		<item>2378</item>
+		<item>2379</item>
+		<item>2369</item>
+		<item>2371</item>
+		<item>2370</item>
+		<item>2372</item>
+		<item>2373</item>
+		<item>2374</item>
+		<item>2375</item>
+		<item>2376</item>
+		<item>2377</item>
+
+		<!-- Switzerland-->
+		<item>2234</item>
+		<item>2229</item>
+		<item>2236</item>
+		<item>2232</item>
+		<item>2230</item>
+		<item>2231</item>
+		<item>2235</item>
+		<item>2238</item>
+		<item>2237</item>
+		<item>2233</item>
+
+		<!-- Syria-->
+		<item>1193</item>
+
+		<!-- Taiwan-->
+		<item>1194</item>
+
+		<!-- Tajikistan-->
+		<item>1195</item>
+
+		<!-- Tanzania-->
+		<item>1196</item>
+
+		<!-- Thailand-->
+		<item>1198</item>
+
+		<!-- Togo-->
+		<item>1200</item>
+
+		<!-- Tokelau-->
+		<item>1269</item>
+
+		<!-- Tonga-->
+		<item>1201</item>
+
+		<!-- Trinidad and Tobago-->
+		<item>1202</item>
+
+		<!-- Tunisia-->
+		<item>1203</item>
+
+		<!-- Turkey-->
+		<item>1204</item>
+
+		<!-- Turkmenistan-->
+		<item>1199</item>
+
+		<!-- Turks and Caicos Islands-->
+		<item>1197</item>
+
+		<!-- Tuvalu-->
+		<item>1205</item>
+
+		<!-- Uganda-->
+		<item>1208</item>
+
+		<!-- Ukraine-->
+		<item>1207</item>
+
+		<!-- United Arab Emirates-->
+		<item>1206</item>
+
+		<!-- United Kingdom-->
+		<item>2215</item>
+		<item>2219</item>
+		<item>2220</item>
+		<item>2217</item>
+		<item>2212</item>
+		<item>2210</item>
+		<item>2213</item>
+		<item>2223</item>
+		<item>2218</item>
+		<item>2222</item>
+		<item>2221</item>
+		<item>2211</item>
+		<item>2216</item>
+		<item>2214</item>
+		<item>260</item>
+
+		<!-- United States-->
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>29</item>
+		<item>28</item>
+		<item>210</item>
+		<item>211</item>
+		<item>212</item>
+		<item>213</item>
+		<item>214</item>
+		<item>215</item>
+		<item>216</item>
+		<item>217</item>
+		<item>218</item>
+		<item>219</item>
+		<item>220</item>
+		<item>221</item>
+		<item>222</item>
+		<item>223</item>
+		<item>224</item>
+		<item>225</item>
+		<item>226</item>
+		<item>227</item>
+		<item>228</item>
+		<item>229</item>
+		<item>230</item>
+		<item>231</item>
+		<item>232</item>
+		<item>233</item>
+		<item>234</item>
+		<item>235</item>
+		<item>236</item>
+		<item>237</item>
+		<item>238</item>
+		<item>239</item>
+		<item>240</item>
+		<item>241</item>
+		<item>242</item>
+		<item>243</item>
+		<item>244</item>
+		<item>245</item>
+		<item>246</item>
+		<item>247</item>
+		<item>248</item>
+		<item>249</item>
+		<item>250</item>
+		<item>251</item>
+
+		<!-- Unknown-->
+		<item>11</item>
+
+		<!-- Uruguay-->
+		<item>1210</item>
+
+		<!-- US Minor Outlying Islands-->
+		<item>1270</item>
+
+		<!-- US Virgin Islands-->
+		<item>1235</item>
+
+		<!-- Uzbekistan-->
+		<item>1211</item>
+
+		<!-- Vanuatu-->
+		<item>1212</item>
+
+		<!-- Vatican City State-->
+		<item>1213</item>
+
+		<!-- Venezuela-->
+		<item>1214</item>
+
+		<!-- Vietnam-->
+		<item>1215</item>
+
+		<!-- Wallis And Futuna Islands-->
+		<item>1218</item>
+
+		<!-- Western Sahara-->
+		<item>1271</item>
+
+		<!-- Yemen-->
+		<item>1220</item>
+
+		<!-- Zambia-->
+		<item>1224</item>
+
+		<!-- Zimbabwe-->
+		<item>1225</item>
+
+	</string-array>
+
+
+
+
+
+
+
+    <!-- ################################## -->
+    <!-- ALTRI Settings dell'esempio GOOGLE -->
+    <!-- ################################## -->
+	<string name="pref_header_general">General</string>
+
+	<string name="pref_title_social_recommendations">Enable social recommendations</string>
+	<string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
+
+	<string name="pref_title_display_name">Display name</string>
+	<string name="pref_default_display_name">John Smith</string>
+
+	<string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+	<string-array name="pref_example_list_titles">
+		<item>Always</item>
+		<item>When possible</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="pref_example_list_values">
+		<item>1</item>
+		<item>0</item>
+		<item>-1</item>
+	</string-array>
+
+	<!-- Example settings for Data & Sync -->
+	<string name="pref_header_data_sync">Data &amp; sync</string>
+
+	<string name="pref_title_sync_frequency">Sync frequency</string>
+	<string-array name="pref_sync_frequency_titles">
+		<item>15 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>3 hours</item>
+		<item>6 hours</item>
+		<item>Never</item>
+	</string-array>
+	<string-array name="pref_sync_frequency_values">
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>180</item>
+		<item>360</item>
+		<item>-1</item>
+	</string-array>
+
+	<string name="pref_title_system_sync_settings">System sync settings</string>
+
+	<!-- Example settings for Notifications -->
+	<string name="pref_header_notifications">Notifications</string>
+
+	<string name="pref_title_new_message_notifications">New message notifications</string>
+
+	<string name="pref_title_ringtone">Ringtone</string>
+	<string name="pref_ringtone_silent">Silent</string>
+
+	<string name="pref_title_vibrate">Vibrate</string>
+</resources>

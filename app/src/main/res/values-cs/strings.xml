@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GC FTF - New Caches PRO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_help">Nápověda</string>
+    <string name="action_rate">Podpoř ★★★★★ vývoj</string>
+    <string name="action_pro">Stáhni si PRO verzi</string>
+    <string name="action_change_country">Změna regionu</string>
+    <string name="action_restore_archived">Zobraz schované keše</string>
+    <string name="action_dark_theme">Tmavé téma</string>
+    <string name="lbl_wait">Počkej na stažení keší…</string>
+    <string name="lbl_no_network">Síť je nedostupná, zkusíme to později</string>
+    <string name="lbl_now">Teď</string>
+    <string name="lbl_retrieved">Byly staženy nové keše!</string>
+    <string name="lbl_error_retrieving">Chyba ve stahování keší, zkus to znovu!</string>
+    <string name="lbl_no_new_caches">Žádné nové keše nejsou dostupné!</string>
+    <string name="txt_status">Příští kontrola: %s!</string>
+    <string name="btn_click_refresh">Klikni pro obnovení nebo počkej na další kontrolu!</string>
+
+    <string-array name="lstview_menu">
+        <item>Archivovat</item>
+        <item>Otevřít</item>
+    </string-array>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1499106218978814/1094829686</string>
+    <string name="title_empty_list">Žádné nové keše vhodné pro FTF nebyly nalezeny - užij si volného dne! :)</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_help_content">Aplikace umožňuje ukázat poslední nenalezené (přesněji dosud nezalogované) keše ve vybraném regionu, který vyberete v nastavení.
+        Stačí otevřít aplikaci a dosud nenalezené keše se načtou automaticky.\n
+        - Nové keše jsou zvýrazněny zeleně. Nalezené keše jsou zvýrazněny červeně a následně automaticky odstraněny.\n
+        - Můžete schovat nové keše, které vás nezajímají, a to dlouhým stiskem položky v seznamu.\n
+        - Můžete otevřít vybranou keš ve vašem oblíbeném programu - pouhým kliknutím na tuto keš.\n
+        - Můžete otevřít menu pro další funkce.\n\n
+        Vezměte prosím v úvahu, že toto je pouze beta verze. Můžete mi poslat Vaše případné návrhy na vylepšení na email: artsakenos+android@gmail.com.
+        Nezapomeňte ocenit ★★★★★ jestli se vám program líbí. <b>NEDÁVEJTE prosím</b> nízký rating z důvodů žádosti dalších funkcí - Vaše požadavky a návrhy mi piště přímo na email. Děkuji za vaši podporu.</string>
+    <string name="txt_activity_help_countries"> Můžete vybrat svůj region v nastavení.
+        V tomto okamžiku program neběží jako "service" (systémová služba), proto může být ukončen např. úsporným režimem.
+        Podpořte vývoj, dejte vysoké hodnocení a já tuto funkci přidám. Enjoy!</string>
+    <string name="appwidget_text">PŘÍKLAD</string>
+    <string name="add_widget">Přidat widget</string>
+
+</resources>
